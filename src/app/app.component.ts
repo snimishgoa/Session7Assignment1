@@ -6,5 +6,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title: string;
+  firstName: string;
+  lastName: string;
+  titleFlag: boolean;
+
+  constructor(){
+    this.titleFlag = false;
+  }
+
+  showTitle(): void{
+    this.title = `${this.firstName } ${this.lastName}`;
+    this.titleFlag = true;
+    console.log(`${this.title} ${this.titleFlag} `)
+  }
+
+  hideTitle(): void{
+    this.title = `${this.firstName } ${this.lastName}`;
+    this.titleFlag = false;
+    console.log(`${this.title} ${this.titleFlag} `)
+  }
 }
