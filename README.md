@@ -11,4 +11,4 @@ title should appear. HTML page should display the value that has been changed in
 text box in the title.
 
 ## Output
-Check the Screenshot_output.PNG to see the running output.
+Check the file Screenshot_output.PNG to see the running output.
