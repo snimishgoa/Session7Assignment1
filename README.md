@@ -9,3 +9,6 @@ create a text box for name and lastname do two-way binding.
 3. Create a button and attach an event handler to it. When you click that button the
 title should appear. HTML page should display the value that has been changed in
 text box in the title.
+
+## Output
+Check the Screenshot_output.PNG to see the running output.
